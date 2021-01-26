@@ -1,0 +1,9 @@
+@media only screen and (max-width: 600px) {
+ 	img.responsive {
+    	display: none;
+ 	}
+
+ 	.card {
+ 		margin-top: 2%;
+ 	}
+}

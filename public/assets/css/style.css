@@ -10,6 +10,17 @@ body {
 	border-radius: 20px;
 }
 
+img {
+	width: 80%;
+	user-select: none;
+	pointer-events: none;
+}
+
+span.slogan {
+	font-size: 18px;
+	font-family: arial;
+}
+
 .card .list-group-flush h1 {
 	padding-bottom: 1rem;
 	font-family: Lato-Bold;
@@ -81,4 +92,10 @@ select.form-select {
 @font-face {
     font-family: Lato-Bold;
     src: url("../fonts/Lato-Bold.ttf") format('truetype');
+}
+
+
+.error {
+	color: red;
+	text-align: left!important;
 }

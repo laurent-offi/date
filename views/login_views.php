@@ -6,7 +6,8 @@
 		  		<div class="row align-items-start">
 		    	<div data-aos="flip-up" class="col-sm">
 		      		<img src="assets/img/logo.png">
-		      		<div class="col-sm">Vos rencontres dès demain !</div>
+		      		<div class="col-sm"><span class="slogan">Rencontrez célibataires, et commencez votre aventure dès maintenant !</span></div>
+		      		<div class="col-sm"><img class="responsive" src="assets/img/vector_01.png"></div>
 		    	</div>
 
 
@@ -16,46 +17,70 @@
 				<div data-aos="fade-up" class="card shadow mb-5 bg-white">
 				  	<ul class="list-group list-group-flush">
 				  	<h1>Inscription</h1>
-					  	<form>
+					  	<form method="post">
 							<div class="input-group mb-3">
 								<span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
-							    <input type="text" class="form-control" placeholder="Nom">
+							    <input type="text" name="name" class="form-control" placeholder="Nom" value="<?php if(isset($name)) { echo $name; } ?>">
 						  	</div>
+
+						  	<?php if(isset($error_name)) { ?>
+							<p class="error"><i class="fas fa-exclamation-triangle"></i> <?php echo $error_name; ?></p>
+							<?php } ?>
+
 						  	<div class="input-group mb-3">
 						  		<span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
-							    <input type="tewt" class="form-control" placeholder="Prénom">
+							    <input type="tewt" name="firstname" class="form-control" placeholder="Prénom" value="<?php if(isset($firstname)) { echo $firstname; } ?>">
 						  	</div>
+
+						  	<?php if(isset($error_firstname)) { ?>
+						  	<p class="error"><i class="fas fa-exclamation-triangle"></i> <?php echo $error_firstname; ?></p>
+							<?php } ?>
+
 							<div class="input-group mb-3">
 								<span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope"></i></span>
-							    <input type="email" class="form-control" placeholder="Adresse email">
+							    <input type="email" name="email" class="form-control" placeholder="Adresse email" value="<?php if(isset($email)) { echo $email; } ?>">
 						  	</div>
 
+						  	<?php if(isset($error_email)) { ?>
+							<p class="error"><i class="fas fa-exclamation-triangle"></i> <?php echo $error_email; ?></p>
+							<?php } ?>
 
 							<div class="input-group mb-3">
-								<span class="input-group-text" id="basic-addon1"><i class="fa fa-star"></i></span>
-							    <input type="text" class="form-control" placeholder="Age">
+								<span class="input-group-text" id="basic-addon1"><i class="fas fa-calendar-alt"></i></span>
+							    <input type="text" name="age" class="form-control" placeholder="Âge" value="<?php if(isset($age)) { echo $age; } ?>">
 						  	</div>
+
+						  	<?php if(isset($error_age)) { ?>
+						  	<p class="error"><i class="fas fa-exclamation-triangle"></i> <?php echo $error_age; ?></p>
+							<?php } ?>
+
 						  	<div class="input-group mb-3">
-						  		<span class="input-group-text" id="basic-addon1"><i class="fas fa-venus-mars"></i></span>
-								<select class="form-select">
-								  <option selected disabled="disabled">--- Sélectionner votre genre ---</option>
+						  		<span class="input-group-text"><i class="fas fa-venus-mars"></i></span>
+								<select class="form-select" name="gender">
 								  <option value="1">Homme</option>
 								  <option value="2">Femme</option>
-								  <option value="3">Autre</option>
 								</select>
-
 						  	</div>
+
+						  	<?php if(isset($error_gender)) { ?>
+							<p class="error"><i class="fas fa-exclamation-triangle"></i> <?php echo $error_gender; ?></p>
+							<?php } ?>
+
 							<div class="input-group mb-3">
 								<span class="input-group-text" id="basic-addon1"><i class="fa fa-map"></i></span>
-							    <input type="text" class="form-control" placeholder="Code postal">
+							    <input type="text" name="zipcode" class="form-control" placeholder="Code postal" value="<?php if(isset($zipcode)) { echo $zipcode; } ?>">
 						  	</div>
 
+						  	<?php if(isset($error_zipcode)) { ?>
+						  	<p class="error"><i class="fas fa-exclamation-triangle"></i> <?php echo $error_zipcode; ?></p>
+							<?php } ?>
+
 						
-		  					<button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i> S'inscrire</button>
+		  					<button type="submit" name="register" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i> S'inscrire</button>
 						</form>
 					</ul>
 					  <div class="card-footer">
-					    Se connecter | Mot de passe oublié
+					    Se connecter
 					  </div>
 				</div>
 
