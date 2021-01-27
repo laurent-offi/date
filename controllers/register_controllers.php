@@ -34,6 +34,10 @@
 				$error_gender = "Le genre doit-être renseigné.";
 			}
 
+			if(empty($search_gender)) {
+				$error_search_gender = "Le genre doit-être renseigné.";
+			}
+
 			if(empty($zipcode)) {
 				$error_zipcode = "Le code postal doit-être renseigné.";
 			}
@@ -81,6 +85,7 @@
 				setcookie("email", $email, time()+3600);
 				setcookie("age", $age, time()+3600);
 				setcookie("gender", $gender, time()+3600);
+				setcookie("search_gender", $search_gender, time()+3600);
 				setcookie("zipcode", $zipcode, time()+3600);
 
 				header('Location: lovers');

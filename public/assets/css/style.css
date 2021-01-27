@@ -6,7 +6,7 @@ body {
 	padding: 2rem;
 }
 
-.card {
+.card#register {
 	border-radius: 20px;
 }
 
@@ -16,12 +16,13 @@ img {
 	pointer-events: none;
 }
 
+
 span.slogan {
 	font-size: 18px;
 	font-family: arial;
 }
 
-.card .list-group-flush h1 {
+.card #register .list-group-flush h1 {
 	padding-bottom: 1rem;
 	font-family: Lato-Bold;
 	user-select: none;

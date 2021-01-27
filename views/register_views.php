@@ -14,7 +14,7 @@
 
 
 		    <div class="col-sm">
-				<div data-aos="fade-up" class="card shadow mb-5 bg-white">
+				<div data-aos="fade-up" id="register" class="card shadow mb-5 bg-white">
 				  	<ul class="list-group list-group-flush">
 				  	<h1>Inscription</h1>
 					  	<form method="post">
@@ -54,18 +54,41 @@
 						  	<p class="error"><i class="fas fa-exclamation-triangle"></i> <?php echo $error_age; ?></p>
 							<?php } ?>
 
+
 						  	<div class="input-group mb-3">
 						  		<span class="input-group-text"><i class="fas fa-venus-mars"></i></span>
 								<select class="form-select" name="gender">
-								  <option value="Man">Homme</option>
-								  <option value="Woman">Femme</option>
-								  <option value="All">Tout</option>
+								  <option value="Man">Je suis un homme</option>
+								  <option value="Woman">Je suis une femme</option>
+								  <option value="All">Je suis non-binaire</option>
 								</select>
 						  	</div>
 
 						  	<?php if(isset($error_gender)) { ?>
 							<p class="error"><i class="fas fa-exclamation-triangle"></i> <?php echo $error_gender; ?></p>
 							<?php } ?>
+
+
+
+						  	<div class="input-group mb-3">
+						  		<span class="input-group-text"><i class="fas fa-venus-mars"></i></span>
+								<select class="form-select" name="search_gender">
+								  <option value="man">Je recherche un homme</option>
+								  <option value="woman">Je recherche une femme</option>
+								  <option value="all">Je recherche tout</option>
+								</select>
+						  	</div>
+
+						  	<?php if(isset($error_search_gender)) { ?>
+							<p class="error"><i class="fas fa-exclamation-triangle"></i> <?php echo $error_search_gender; ?></p>
+							<?php } ?>
+
+
+
+
+
+
+
 
 							<div class="input-group mb-3">
 								<span class="input-group-text" id="basic-addon1"><i class="fa fa-map"></i></span>
