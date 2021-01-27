@@ -8,7 +8,7 @@
 	if (isset($_POST["register"])) {
 		$name = stripslashes(htmlentities(strtoupper(trim($_POST["name"]))));
 		$firstname = stripslashes(htmlentities(ucfirst(trim($_POST["firstname"]))));
-		$email = stripslashes(htmlentities(ucfirst(trim($_POST["email"]))));
+		$email = stripslashes(htmlentities(strtolower(trim($_POST["email"]))));
 		$age = stripslashes(htmlentities(trim($_POST["age"])));
 		$gender = stripslashes(htmlspecialchars(ucfirst(trim($_POST["gender"]))));
 		$zipcode = stripslashes(htmlspecialchars(trim($_POST["zipcode"])));
@@ -74,6 +74,18 @@
 					$error_zipcode = "Le code postal est invalide.";
 			}
 
+
+			if($valid) {
+				setcookie("name", $name, time()+3600);
+				setcookie("firstname", $firstname, time()+3600);
+				setcookie("email", $email, time()+3600);
+				setcookie("age", $age, time()+3600);
+				setcookie("gender", $gender, time()+3600);
+				setcookie("zipcode", $zipcode, time()+3600);
+
+				header('Location: lovers');
+
+			}
 
 
 

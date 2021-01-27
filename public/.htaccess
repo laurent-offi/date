@@ -1,0 +1,11 @@
+Options +FollowSymlinks 
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^([^\.]+)$ $1.php [L]
+RewriteRule ^clan/([0-9]+) clan.php?id=$1 [L]
+RewriteRule ^editclan/([0-9]+) editclan.php?id=$1 [L]
+RewriteRule ^deleteclan/([0-9]+) deleteclan.php?id=$1 [L]
+RewriteRule ^user/([a-zA-Z0-9]+) user.php?username=$1 [L]
+RewriteRule ^flux/([0-9]+) flux.php?id=$1 [L]

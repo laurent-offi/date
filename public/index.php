@@ -5,10 +5,10 @@
 	require_once('../controllers/register_controllers.php');
 
 
-	if(isset($_COOKIE['user'])) {
-		include('../views/home_views.php');
+	if(isset($_COOKIE['name']) && $_COOKIE['firstname'] && $_COOKIE['email'] && $_COOKIE['age'] && $_COOKIE['gender'] && $_COOKIE['zipcode']) {
+		header('Location: lovers');
 	} else {
-		include('../views/login_views.php');
+		include('../views/register_views.php');
 	}
 
 	require_once('bases/footer.php');

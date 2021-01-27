@@ -6,7 +6,7 @@
 		  		<div class="row align-items-start">
 		    	<div data-aos="flip-up" class="col-sm">
 		      		<img src="assets/img/logo.png">
-		      		<div class="col-sm"><span class="slogan">Rencontrez célibataires, et commencez votre aventure dès maintenant !</span></div>
+		      		<div class="col-sm"><span class="slogan">Rencontrez des célibataires, et commencez votre aventure dès maintenant !</span></div>
 		      		<div class="col-sm"><img class="responsive" src="assets/img/vector_01.png"></div>
 		    	</div>
 
@@ -57,8 +57,9 @@
 						  	<div class="input-group mb-3">
 						  		<span class="input-group-text"><i class="fas fa-venus-mars"></i></span>
 								<select class="form-select" name="gender">
-								  <option value="1">Homme</option>
-								  <option value="2">Femme</option>
+								  <option value="Man">Homme</option>
+								  <option value="Woman">Femme</option>
+								  <option value="All">Tout</option>
 								</select>
 						  	</div>
 
