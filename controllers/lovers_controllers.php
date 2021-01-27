@@ -8,14 +8,6 @@
 		$sort_gender = stripslashes(htmlspecialchars($_COOKIE['search_gender']));
 
 
-		if($sort_gender == "man") {
-			echo "Vous recherchez des hommes.";
-		} else if ($sort_gender == "woman") {
-			echo "Vous recherchez des femmes";
-		} else if($sort_gender == "all") {
-			echo "Vous recherchez tout !";
-		}
-
 
 
 	

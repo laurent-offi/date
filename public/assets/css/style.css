@@ -22,7 +22,13 @@ span.slogan {
 	font-family: arial;
 }
 
-.card #register .list-group-flush h1 {
+.card-center {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.card .list-group-flush h1 {
 	padding-bottom: 1rem;
 	font-family: Lato-Bold;
 	user-select: none;

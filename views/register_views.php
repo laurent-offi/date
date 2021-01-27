@@ -58,9 +58,9 @@
 						  	<div class="input-group mb-3">
 						  		<span class="input-group-text"><i class="fas fa-venus-mars"></i></span>
 								<select class="form-select" name="gender">
-								  <option value="Man">Je suis un homme</option>
-								  <option value="Woman">Je suis une femme</option>
-								  <option value="All">Je suis non-binaire</option>
+								  <option value="Homme">Je suis un homme</option>
+								  <option value="Femme">Je suis une femme</option>
+								  <option value="Non-Binaire">Je suis non-binaire</option>
 								</select>
 						  	</div>
 
@@ -73,9 +73,9 @@
 						  	<div class="input-group mb-3">
 						  		<span class="input-group-text"><i class="fas fa-venus-mars"></i></span>
 								<select class="form-select" name="search_gender">
-								  <option value="man">Je recherche un homme</option>
-								  <option value="woman">Je recherche une femme</option>
-								  <option value="all">Je recherche tout</option>
+								  <option value="Homme">Je recherche un homme</option>
+								  <option value="Femme">Je recherche une femme</option>
+								  <option value="Tout">Je recherche tout</option>
 								</select>
 						  	</div>
 
