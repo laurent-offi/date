@@ -59,14 +59,19 @@ h5 {
     src: url("../fonts/Fraktion.otf") format("opentype");
     height: 42.3px;
     transition: 0.25s;
-    width: 153px;
+    width: 100%;
     outline-style: none;
  
+}
+
+.lato b {
+    font-family: lato;
 }
 
 .account {
     background: transparent!important;
     border: 2px solid white!important;
+    width: 5rem;
 }
 
 .account:hover {
@@ -84,11 +89,25 @@ h5 {
     src: url("../fonts/Lato.ttf") format("truetype");
 }
 
+b.name {
+    font-family: 'lato';
+    color: #b15fe1;
+}
 
 .profilImg {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    user-select: none;
+    pointer-events: none;
 }
+
+.infos {
+    list-style: none;
+    color: #6f6f6f;
+    text-align: left;
+}
+
+
 .navbar-brand{
     color: #ffffff;
     font-family: lato;

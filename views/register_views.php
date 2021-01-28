@@ -60,6 +60,7 @@
 								<select class="form-select" name="gender">
 								  <option value="Homme">Je suis un homme</option>
 								  <option value="Femme">Je suis une femme</option>
+								  <option value="Non-Binaire">Je suis non-binaire</option>
 								</select>
 						  	</div>
 
@@ -74,7 +75,6 @@
 								<select class="form-select" name="search_gender">
 								  <option value="Homme">Je recherche un homme</option>
 								  <option value="Femme">Je recherche une femme</option>
-								  <option value="Tout">Je recherche tout</option>
 								</select>
 						  	</div>
 

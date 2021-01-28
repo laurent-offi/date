@@ -3,7 +3,7 @@
 	<body>
 
 				<div data-aos="fade-up" id="register" class="card shadow mb-5 col-7 text-left bg-white card-center">
-				  	<ul class="list-group list-group-flush">
+				  	<ul class="list-group list-group-flush lato">
 
 					  <div class="mb-3 row">
 					    <label class="col-sm-3 col-form-label"><i class="fa fa-user"></i> <b>Nom :</b></label>

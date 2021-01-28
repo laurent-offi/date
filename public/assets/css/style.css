@@ -17,10 +17,9 @@ img {
 	pointer-events: none;
 }
 
-
 span.slogan {
 	font-size: 18px;
-	font-family: arial;
+    font-family: lato;	
 }
 
 .card-center {
@@ -54,6 +53,10 @@ span.slogan {
     user-select: none;
 }
 
+input {
+	font-family: fraktion;
+}
+
 .form-control:focus {
   border-color: inherit;
   -webkit-box-shadow: none;
@@ -69,6 +72,10 @@ select.form-select:focus {
   
 }
 
+.cat {
+	border-bottom: 1px solid red;
+}
+
 button[type="submit"] {
     width: 100%;
     border-radius: 20px;
@@ -78,6 +85,21 @@ button[type="submit"] {
     background: linear-gradient(90deg, rgba(33,154,212,1) 0%, rgba(204,84,227,1) 100%);
     border: none;
 }
+
+.btn-outline-danger{
+	font-family: fraktion;
+	border-radius: 20px;
+}
+
+.btn-outline-success{
+	font-family: fraktion;
+	border-radius: 20px;
+}
+.btn-info{
+	font-family: fraktion;
+	border-radius: 20px;
+}
+
 
 button[type="submit"]:hover {
 	background: linear-gradient(90deg, rgba(30,140,193,1) 0%, rgba(174,69,194,1) 100%);
@@ -95,6 +117,7 @@ select.form-select {
 	border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     background-color: #f9f9f9;
+    font-family: fraktion;
 }
 
 
@@ -106,4 +129,9 @@ select.form-select {
 @font-face {
     font-family: lato;
     src: url("../fonts/Lato.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Fraktion;
+    src: url("../fonts/Fraktion.otf") format("opentype");
 }
