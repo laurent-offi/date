@@ -1,18 +1,10 @@
-<footer>
-<div class="container">
+ <footer class="foot">
+          <div class="text-center p-3">
+              © 2021 Copyright: Sarah Charef Laurent Courcelle <br />
+              <a class="text-dark" href="https://mdbootstrap.com/">Condition d'utilisation </a>
+              <a class="text-dark" href="https://mdbootstrap.com/">Mention légal </a>
+          </div>
 
-  <div class="row align-items-end">
-    <div class="col align-items-start">
-      @ MeetHeart | Laurent & Sarrah - 2021
-    </div>
-    <div class="col align-items-end">
-      <a href ="#">Mentions légales</a>
-      <a href ="#">Conditions générales</a>
-      <a href ="#">Confidentialité</a>
-
-    </div>
-  </div>
-</div>
 </footer>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

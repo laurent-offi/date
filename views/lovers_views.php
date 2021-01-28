@@ -5,13 +5,16 @@
 		<?php
 
 		if($sort_gender == "Homme") {
-			require('genders/lovers_man_views.php');
+			require('genders/lovers1.php');
 		} else if ($sort_gender == "Femme") {
-			require('genders/lovers_woman_views.php');
-
+			require('genders/lovers2.php');
+		} else if ($sort_gender == "Tout") {
+			require('genders/lovers3.php');
+		} else {
+			echo "Il n'y a personne dans vos recommendations.";
 		}
-
 		?>
+
 
 
 	</body>

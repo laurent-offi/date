@@ -58,8 +58,9 @@
 
 				 <div class="mb-3 row text-center pt-3">
 
-				 	<label class="col-sm-6"><button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-times-circle"></i> Supprimer toute trace</button></label>
-				 	<label class="col-sm-6"><button type="button" class="btn btn-info"><i class="fas fa-money-bill-wave"></i> Take my money</button></label>
+				 	<label class="col-sm-4"><button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-times-circle"></i> Supprimer toute trace</button></label>
+				 	<label class="col-sm-4"><button type="button" class="btn btn-outline-success" onclick="javascript:window.location.href='lovers'"><i class="fas fa-home"></i> Retour aux célibataires</button></label>
+				 	<label class="col-sm-4"><button type="button" class="btn btn-info"><i class="fas fa-money-bill-wave"></i> Take my money</button></label>
 
 				 </div>
  

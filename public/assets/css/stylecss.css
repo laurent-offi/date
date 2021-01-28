@@ -1,0 +1,107 @@
+@font-face {
+    font-family: lato;
+    src: url("../font/Lato.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: fraktion;
+    src: url("../font/Fraktion.otf") format("opentype");
+}
+
+
+.navbar{
+    background:  -webkit-linear-gradient(right, #2e95d6, #c457e2);
+    padding: 1rem;
+    user-select: none;
+}
+
+.navbar img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.card {
+    text-align: center;
+    font-family: fraktion;
+    src: url("../font/Fraktion.otf") format("opentype");
+    border-radius: 15px;
+    margin: 15px;
+
+}
+
+h4 {
+    font-size: 45px;
+    font-family: lato;
+    src: url("../font/Lato.ttf") format("truetype");
+    text-align: center;
+    color: #2e95d6;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+
+h5 {
+    font-size: 17px;
+    font-family: lato;
+    src: url("../font/Lato.ttf") format("truetype");
+    text-align: center;
+}
+
+.btn {
+    background: -webkit-linear-gradient(right, #2e95d6, #c457e2);
+    border: none;
+    border-radius: 21px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    font-family: fraktion;
+    src: url("../font/Fraktion.otf") format("opentype");
+    height: 42.3px;
+    transition: 0.25s;
+    width: 153px;
+    outline-style: none;
+ 
+}
+
+.account {
+    background: transparent!important;
+    border: 2px solid white!important;
+}
+
+.account:hover {
+    background-color: #e8e8e8!important;
+    color: black;
+}
+
+
+
+.about {
+    font-size: 20px;
+    color: #c457e2;
+    text-align: center;
+    font-family: lato;
+    src: url("../font/Lato.ttf") format("truetype");
+}
+
+
+.profilImg {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.navbar-brand{
+    color: #ffffff;
+    font-family: lato;
+    src: url("../font/Lato.ttf") format("truetype");
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+.foot{
+    font-family: fraktion;
+    border-top: 1px solid #dadada;
+}
+.card-footer{
+    background: white;
+}

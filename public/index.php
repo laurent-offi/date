@@ -1,5 +1,7 @@
 <?php
 
+	$page = "Inscription";
+	
 	require_once('../core/boot.php');
 
 	require_once('../controllers/register_controllers.php');

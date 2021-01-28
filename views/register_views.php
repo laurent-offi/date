@@ -103,9 +103,6 @@
 		  					<button type="submit" name="register" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i> S'inscrire</button>
 						</form>
 					</ul>
-					  <div class="card-footer">
-					    Se connecter
-					  </div>
 				</div>
 
 			</div>
