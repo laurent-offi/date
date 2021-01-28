@@ -29,7 +29,7 @@
 	            $age => 23,
 	            $gender => "femme",
 	            $email => "bertin02880@gmail.fr",
-	            $zipcode => 02880,
+	            $zipcode => 24880,
 	            $city => "laffaux",
 	            $description => "« Tacos, Dormir, Tacos, Aller au travail, Tacos, Faire du sport, Tacos,
 				Regarder un film, Tacos … on mange ensemble ? »",

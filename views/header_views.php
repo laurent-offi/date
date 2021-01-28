@@ -5,6 +5,6 @@
                       alt=" coeur">
                   MEETHEART
               </a>
-              <button type="button" class="btn btn-outline-primary account" onclick="javascript:window.location.href='user'">Mon compte</button>
+              <button type="button" class="btn btn-outline-primary account" onclick="javascript:window.location.href='user'"><?=  $_COOKIE['firstname']  . " " . $_COOKIE['name']; ?></button>
           </nav>
       </header>

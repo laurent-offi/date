@@ -8,8 +8,6 @@
 			require('genders/lovers1.php');
 		} else if ($sort_gender == "Femme") {
 			require('genders/lovers2.php');
-		} else if ($sort_gender == "Tout") {
-			require('genders/lovers3.php');
 		} else {
 			echo "Il n'y a personne dans vos recommendations.";
 		}

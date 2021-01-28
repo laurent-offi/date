@@ -1,11 +1,11 @@
 @font-face {
     font-family: lato;
-    src: url("../font/Lato.ttf") format("truetype");
+    src: url("../fonts/Lato.ttf") format("truetype");
 }
 
 @font-face {
     font-family: fraktion;
-    src: url("../font/Fraktion.otf") format("opentype");
+    src: url("../fonts/Fraktion.otf") format("opentype");
 }
 
 
@@ -24,7 +24,7 @@
 .card {
     text-align: center;
     font-family: fraktion;
-    src: url("../font/Fraktion.otf") format("opentype");
+    src: url("../fonts/Fraktion.otf") format("opentype");
     border-radius: 15px;
     margin: 15px;
 
@@ -33,7 +33,7 @@
 h4 {
     font-size: 45px;
     font-family: lato;
-    src: url("../font/Lato.ttf") format("truetype");
+    src: url("../fonts/Lato.ttf") format("truetype");
     text-align: center;
     color: #2e95d6;
     margin-top: 70px;
@@ -44,7 +44,7 @@ h4 {
 h5 {
     font-size: 17px;
     font-family: lato;
-    src: url("../font/Lato.ttf") format("truetype");
+    src: url("../fonts/Lato.ttf") format("truetype");
     text-align: center;
 }
 
@@ -56,7 +56,7 @@ h5 {
     color: white;
     text-align: center;
     font-family: fraktion;
-    src: url("../font/Fraktion.otf") format("opentype");
+    src: url("../fonts/Fraktion.otf") format("opentype");
     height: 42.3px;
     transition: 0.25s;
     width: 153px;
@@ -81,7 +81,7 @@ h5 {
     color: #c457e2;
     text-align: center;
     font-family: lato;
-    src: url("../font/Lato.ttf") format("truetype");
+    src: url("../fonts/Lato.ttf") format("truetype");
 }
 
 
@@ -92,13 +92,13 @@ h5 {
 .navbar-brand{
     color: #ffffff;
     font-family: lato;
-    src: url("../font/Lato.ttf") format("truetype");
+    src: url("../fonts/Lato.ttf") format("truetype");
 }
 
 .navbar-brand:hover{
     color: white;
 }
-.foot{
+.foot {
     font-family: fraktion;
     border-top: 1px solid #dadada;
 }
