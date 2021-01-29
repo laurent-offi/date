@@ -2,7 +2,7 @@
 	<html>
 	<body>
 
-				<div data-aos="fade-up" id="register" class="card shadow mb-5 col-7 text-left bg-white card-center">
+				<div data-aos="fade-up" id="register" class="card shadow mb-5 col-7 text-left card-center">
 				  	<ul class="list-group list-group-flush">
 
 					  <div class="mb-3 row">
@@ -27,28 +27,28 @@
 					 </div>
 
 					<div class="mb-3 row">
-					    <label class="col-sm-3 col-form-label"><i class="fa fa-star"></i> <b>Âge :</b></label>
+					    <label class="col-sm-3 col-form-label"><i class="fas fa-calendar-alt"></i> <b>Âge :</b></label>
 					    <div class="col-sm-9">
 					      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="<?php echo $age; ?> ans">
 					    </div>
 					</div>
 
 					<div class="mb-3 row">
-					    <label class="col-sm-3 col-form-label"><i class="fas fa-calendar-alt"></i> <b>Votre genre :</b></label>
+					    <label class="col-sm-3 col-form-label"><i class="fas fa-venus-mars"></i> <b>Votre genre :</b></label>
 					    <div class="col-sm-9">
 					      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="<?php echo $gender; ?>">
 					    </div>
 					</div>
 
 					<div class="mb-3 row">
-					    <label class="col-sm-3 col-form-label"><i class="fas fa-calendar-alt"></i> <b>Genre recherché :</b></label>
+					    <label class="col-sm-3 col-form-label"><i class="fas fa-venus-mars"></i> <b>Genre recherché :</b></label>
 					    <div class="col-sm-9">
 					      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="<?php echo $sort_gender; ?>">
 					    </div>
 					</div>
 
 					<div class="mb-3 row">
-					    <label class="col-sm-3 col-form-label"><i class="fas fa-venus-mars"></i> <b>Code postal :</b></label>
+					    <label class="col-sm-3 col-form-label"><i class="fas fa-map-marker-alt"></i> <b>Code postal :</b></label>
 					    <div class="col-sm-9">
 					      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="<?php echo $zipcode; ?>">
 					    </div>

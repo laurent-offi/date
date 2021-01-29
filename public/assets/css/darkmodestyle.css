@@ -5,16 +5,53 @@ body {
 
 .card .list-group-flush {
     padding: 2rem;
-    border-radius: 10px;
+    border-top-left-radius: 20px!important;
+    border-top-right-radius: 20px!important;
+    border-bottom-left-radius: 20px!important;
+    border-bottom-right-radius: 20px!important;
     color: #f1f1f1;
-      background-color: #444056;
+    background-color: #444056;
 
 }
+
+button.switch {
+    padding: 0.5rem;
+    width: 10%;
+    border: 1px solid #51517f;
+    background: transparent;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    outline: none;
+}
+
+button.switch:hover {
+    border: 1px solid #5e5ebf;
+}
+
+.form-control-plaintext {
+    color: white;
+    outline: none;
+}
+
+.modal-header {
+    font-family: lato;
+}
+
+.modal-content {
+    font-family: fraktion;
+}
+
+
+input::-webkit-input-placeholder {
+    color:#e8e8e8!important;
+}
+
 
 .card#register {
 	border-radius: 20px;
     font-family: Lato;
-      background-color: #1f1c2f;
+    background-color: #1f1c2f;
 
 }
 
@@ -61,17 +98,20 @@ span.slogan {
     border-bottom-right-radius: 15px;
     user-select: none;
     background-color: #444056;
+    color: white;
 }
 
 input {
     font-family: fraktion;
-    background-color:#1f1c2f;
+    background-color: #e0e0e0;
 }
 
 .form-control:focus {
   border-color: inherit;
   -webkit-box-shadow: none;
   box-shadow: none;
+  background-color: #27223e;
+  color: white;
 
   
 }

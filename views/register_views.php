@@ -14,7 +14,7 @@
 
 
 		    <div class="col-sm">
-				<div data-aos="fade-up" id="register" class="card shadow mb-5 bg-white">
+				<div data-aos="fade-up" id="register" class="card shadow mb-5">
 				  	<ul class="list-group list-group-flush">
 				  	<h1>Inscription</h1>
 					  	<form method="post">

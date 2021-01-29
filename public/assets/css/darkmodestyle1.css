@@ -135,18 +135,35 @@ p{
 .text-center{
 color: #ffffff;
 }
-.a text-dark{
+a text-dark{
     color: #ffffff;
     }
- .a :hover{
+a:hover{
         color: #ffffff;
-        }
+}
 
 li{
     color: #fafafa;
 }
+
+button.switch {
+    padding: 0.5rem;
+    width: 10%;
+    border: 1px solid #51517f;
+    background: transparent;
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    outline: none;
+}
+
+button.switch:hover {
+    border: 1px solid #5e5ebf;
+}
+
+
 .container{
-    background-color: ;#444056;
+    background-color: #444056;
 }
 
 .inputInfo{

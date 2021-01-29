@@ -2,15 +2,40 @@
 <link rel="icon" href="../assets/img/favicon.ico" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+
+<?php if($_COOKIE['theme'] == "dark") { ?>
+
 	<?php if($page != "Rechercher des célibataires") { ?>
-	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/darkmodestyle.css">
 	<?php } ?>
-<link rel="stylesheet" type="text/css" href="../assets/css/responsive.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/footer.css">
+
 
 	<?php if($page == "Rechercher des célibataires") { ?>
-	<link rel="stylesheet" type="text/css" href="../assets/css/stylecss.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/darkmodestyle1.css">
 	<?php } ?>
+
+	<link rel="stylesheet" type="text/css" href="../assets/css/darkmodefooter.css">
+
+
+
+<?php } else { ?>
+
+	<?php if($page != "Rechercher des célibataires") { ?>
+	<link rel="stylesheet" type="text/css" href="../assets/css/lightmodestyle.css">
+	<?php } ?>
+
+	<link rel="stylesheet" type="text/css" href="../assets/css/lightmodefooter.css">
+
+	<?php if($page == "Rechercher des célibataires") { ?>
+	<link rel="stylesheet" type="text/css" href="../assets/css/lightmodestylecss.css">
+	<?php } ?>
+
+<?php } ?>
+
+
+
+<link rel="stylesheet" type="text/css" href="../assets/css/responsive.css">
 
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">

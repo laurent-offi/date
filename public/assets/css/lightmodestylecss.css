@@ -30,6 +30,21 @@
 
 }
 
+button.switch {
+    padding: 0.5rem;
+    width: 10%;
+    border: 1px solid #51517f;
+    background: linear-gradient(90deg, rgba(30,140,193,1) 0%, rgba(174,69,194,1) 100%);
+    border-radius: 20px;
+    color: white;
+    margin-left: 1%;
+    outline: none;
+}
+
+button.switch:hover {
+    border: 1px solid #5e5ebf;
+}
+
 h4 {
     font-size: 45px;
     font-family: lato;

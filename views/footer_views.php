@@ -1,8 +1,17 @@
  <footer class="foot">
           <div class="text-center p-3">
               © 2021 Copyright: Sarah Charef Laurent Courcelle <br />
-              <a class="text-dark" href="https://mdbootstrap.com/">Condition d'utilisation </a>
-              <a class="text-dark" href="https://mdbootstrap.com/">Mention légal </a>
+              <a href="legalmentions">Mention légal </a>
+
+            <form method="post" action="theme_controllers.php">
+
+            	<?php if($_COOKIE['theme'] == "light") { ?>
+             		<button name="switch" class="switch"><i class="far fa-sun"></i></button>
+             	<?php } else if($_COOKIE['theme'] == "dark") { ?>
+             		<button name="switch" class="switch"><i class="far fa-moon"></i></button>
+             	<?php } ?>
+         	</form>
+
           </div>
 
 </footer>

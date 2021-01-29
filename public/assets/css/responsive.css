@@ -6,4 +6,8 @@
  	.card {
  		margin-top: 2%;
  	}
+
+ 	.card#register {
+ 		width: 100%;
+ 	}
 }
