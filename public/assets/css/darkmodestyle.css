@@ -1,14 +1,21 @@
 body {
-	padding: 1rem;
+    padding: 1rem;
+    background-color: #1f1c2f;
 }
 
 .card .list-group-flush {
-	padding: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    color: #f1f1f1;
+      background-color: #444056;
+
 }
 
 .card#register {
 	border-radius: 20px;
-	font-family: Lato;
+    font-family: Lato;
+      background-color: #1f1c2f;
+
 }
 
 img {
@@ -20,12 +27,14 @@ img {
 span.slogan {
 	font-size: 18px;
     font-family: lato;	
+    color: #fbfbfb;
 }
 
 .card-center {
 	margin-left: auto;
 	margin-right: auto;
-	display: block;
+    display: block;
+    background-color: #444056;
 }
 
 .card .list-group-flush h1 {
@@ -35,7 +44,7 @@ span.slogan {
 	font-size: 35px;
 	font-weight: bold;
 	font-weight: 800;
-	 background-color: #f3ec78;
+    background-color: #444056;
     background-image: linear-gradient(90deg, rgba(33,154,212,1) 0%, rgba(204,84,227,1) 100%);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -43,24 +52,27 @@ span.slogan {
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
     font
+
 }
 
 .form-control {
     border-top-right-radius: 15px;
     padding: 0.3rem 0.75rem;
     border-bottom-right-radius: 15px;
-    background-color: #f9f9f9;
     user-select: none;
+    background-color: #444056;
 }
 
 input {
-	font-family: fraktion;
+    font-family: fraktion;
+    background-color:#1f1c2f;
 }
 
 .form-control:focus {
   border-color: inherit;
   -webkit-box-shadow: none;
   box-shadow: none;
+
   
 }
 
@@ -73,7 +85,7 @@ select.form-select:focus {
 }
 
 .cat {
-	border-bottom: 1px solid red;
+    border-bottom: 1px solid red;
 }
 
 button[type="submit"] {
@@ -88,21 +100,28 @@ button[type="submit"] {
 
 .btn-outline-danger{
 	font-family: fraktion;
-	border-radius: 20px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgb(252,102, 114) 0%, rgb(255, 150, 72) 100%);
+    color: #ffffff;
 }
 
 .btn-outline-success{
 	font-family: fraktion;
-	border-radius: 20px;
+    border-radius: 20px;
+    color: #f7f7f7;
+    background: linear-gradient(90deg, rgba(39,176,218,1) 0%, rgba(63,225,155,1) 100%);
 }
 .btn-info{
 	font-family: fraktion;
-	border-radius: 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    background: linear-gradient(90deg, rgba(30,140,193,1) 0%, rgba(174,69,194,1) 100%);
 }
 
 
 button[type="submit"]:hover {
-	background: linear-gradient(90deg, rgba(30,140,193,1) 0%, rgba(174,69,194,1) 100%);
+    background: linear-gradient(90deg, rgba(30,140,193,1) 0%, rgba(174,69,194,1) 100%);
+    color: #ffffff;
 }
 
 .input-group-text {
@@ -110,14 +129,17 @@ button[type="submit"]:hover {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
-    background-color: #f9f9f9;
+    background-color: #444056;
+    color: #ffffff;
 }
 
 select.form-select {
 	border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
-    background-color: #f9f9f9;
+    background-color: #444056;
+    color: #ffffff;
     font-family: fraktion;
+
 }
 
 
@@ -135,3 +157,18 @@ select.form-select {
     font-family: Fraktion;
     src: url("../fonts/Fraktion.otf") format("opentype");
 }
+
+.infos{
+    font-family: Fraktion;
+    src: url("../fonts/Fraktion.otf") format("opentype"); 
+    color: #ffffff;
+    background-color: #444056 ;
+}
+.text-center{
+    color: #ffffff;
+    }
+    .inputInfo{
+        background-color: #444056;
+        color: #ffffff;
+        border: none;
+    }

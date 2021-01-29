@@ -1,0 +1,171 @@
+@font-face {
+    font-family: lato;
+    src: url("../fonts/Lato.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: fraktion;
+    src: url("../fonts/Fraktion.otf") format("opentype");
+}
+
+body{
+    background-color: #1f1c2f;
+}
+.navbar{
+    background:  -webkit-linear-gradient(right, #2e95d6, #c457e2);
+    padding: 1rem;
+    user-select: none;
+}
+
+.navbar img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.card {
+    text-align: center;
+    font-family: fraktion;
+    src: url("../fonts/Fraktion.otf") format("opentype");
+    border-radius: 15px;
+    margin: 15px;
+    background-color: #444056;
+
+}
+
+h4 {
+    font-size: 45px;
+    font-family: lato;
+    src: url("../fonts/Lato.ttf") format("truetype");
+    text-align: center;
+    color: #2e95d6;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+
+h5 {
+    font-size: 17px;
+    font-family: lato;
+    src: url("../fonts/Lato.ttf") format("truetype");
+    text-align: center;
+}
+
+.btn {
+    background: -webkit-linear-gradient(right, #2e95d6, #c457e2);
+    border: none;
+    border-radius: 21px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    font-family: fraktion;
+    src: url("../fonts/Fraktion.otf") format("opentype");
+    height: 42.3px;
+    transition: 0.25s;
+    width: 100%;
+    outline-style: none;
+ 
+}
+
+.lato b {
+    font-family: lato;
+}
+
+.account {
+   background-color: #1f1c2f ;
+    border: 2px solid white;
+    width: 5rem;
+}
+
+.account:hover {
+    background-color: #e8e8e8!important;
+    color: black;
+}
+
+
+
+.about {
+    font-size: 20px;
+    color: #c457e2;
+    text-align: center;
+    font-family: lato;
+    src: url("../fonts/Lato.ttf") format("truetype");
+    background-color: #444056;
+}
+
+b.name {
+    font-family: 'lato';
+    color: #b15fe1;
+}
+
+.profilImg {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.infos {
+    list-style: none;
+    color: #d5d5d5;
+    text-align: left;
+    background-color: #444056;
+}
+
+
+.navbar-brand{
+    color: #ffffff;
+    font-family: lato;
+    src: url("../fonts/Lato.ttf") format("truetype");
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+.foot {
+    font-family: fraktion;
+    border-top: 1px solid #0e0e0e;
+}
+.card-footer{
+    background: white;
+}
+p{
+    color: #ffffff;
+}
+.text-center{
+color: #ffffff;
+}
+.a text-dark{
+    color: #ffffff;
+    }
+ .a :hover{
+        color: #ffffff;
+        }
+
+li{
+    color: #fafafa;
+}
+.container{
+    background-color: ;#444056;
+}
+
+.inputInfo{
+    background-color: #444056;
+    color: #ffffff;
+}
+
+.modal-dialog{
+    background-color: #1f1c2f;
+    color: #fdfdfd;
+    font-family: fraktion;
+    src: url("../fonts/Fraktion.otf") format("opentype");
+
+}
+#exampleModal{
+    background-color: #1f1c2f;
+    color: #fdfdfd;
+    font-family: fraktion;
+    src: url("../fonts/Fraktion.otf") format("opentype");
+
+}
+
